@@ -1,0 +1,171 @@
+.navbarContainer {
+	background: #121218;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+.navbarItems {
+	display: flex;
+	gap: 15px;
+	flex: 1 1 0%;
+}
+.navbarItem1,
+.navbarItem2,
+.navbarItem3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.navbarLogo {
+	cursor: pointer;
+	width: 50px;
+}
+.navRight {
+	flex: 1 1 0%;
+}
+.reserverBtn {
+	border: 1px solid skyblue;
+	padding: 10px 20px;
+	cursor: pointer;
+	width: 150px;
+	text-align: center;
+	float: right;
+}
+.presentation {
+	margin-top: 100px;
+	padding: 50px;
+}
+.presentation p {
+	font-size: 50px;
+}
+.nom {
+	font-size: 100px;
+}
+
+.menuContainer {
+	background: #171923;
+	padding: 50px 0;
+}
+.menuContainer h2 {
+	text-align: center;
+	font-size: 40px;
+}
+.menuItem {
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;
+	font-weight: 200;
+	color: skyblue;
+	margin-top: 80px;
+}
+.plats {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 30px;
+	flex-wrap: wrap;
+}
+.boissons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 150px;
+	flex-wrap: wrap;
+}
+.desserts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 150px;
+}
+
+.item1.active1 {
+	display: inline-block;
+}
+.item2.active2 {
+	display: inline-block;
+}
+.item3.active3 {
+	display: inline-block;
+}
+
+.navbarItem1:hover .circle1 {
+	display: none;
+}
+.navbarItem1:hover .item1 {
+	display: inline-block;
+}
+.navbarItem2:hover .circle2 {
+	display: none;
+}
+.navbarItem2:hover .item2 {
+	display: inline-block;
+}
+.navbarItem3:hover .circle3 {
+	display: none;
+}
+.navbarItem3:hover .item3 {
+	display: inline-block;
+}
+
+.item1,
+.item2,
+.item3 {
+	display: none;
+}
+
+.circle1 {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #f9625d;
+}
+.circle2 {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #f7bb3f;
+}
+.circle3 {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #33c748;
+}
+
+.circle1.hide1 {
+	display: none;
+}
+.circle2.hide2 {
+	display: none;
+}
+.circle3.hide3 {
+	display: none;
+}
+
+.contact {
+	background: #171923;
+}
+
+.equipe {
+	padding: 50px;
+}
+.equipe h2 {
+	text-align: center;
+	font-size: 50px;
+}
+.equipe h3 {
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+}

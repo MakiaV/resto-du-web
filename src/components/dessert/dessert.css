@@ -1,0 +1,27 @@
+.dessert {
+	position: relative;
+	margin-top: 20px;
+}
+.dessert .dessertImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.dessert .dessertLogo {
+	position: absolute;
+	top: 70px;
+	left: 50px;
+}
+.dessertDesc {
+	margin-top: 170px;
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dessertDescPrix {
+	font-size: 18px;
+	font-style: italic;
+	color: skyblue;
+}

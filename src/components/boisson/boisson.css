@@ -1,0 +1,29 @@
+.boissonContainer {
+}
+
+.bottle {
+	position: relative;
+}
+.bottle .bottleImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bottle .bottleLogo {
+	position: absolute;
+	top: 70px;
+	left: 50px;
+}
+.boissonDesc {
+	margin-top: 170px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.boissonDescPrix {
+	font-size: 18px;
+	font-style: italic;
+	color: skyblue;
+}

@@ -1,0 +1,36 @@
+.platContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+.plat {
+	width: 300px;
+	height: 300px;
+	border: 1px solid rgb(39, 38, 38);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+	background: #1a1b26;
+	box-shadow: inset 25px 25px 50px #0a0b0f, inset -25px -25px 50px #2a2b3d;
+}
+.platContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.platDescription {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+	color: aliceblue;
+}
+.platDescPrix {
+	font-size: 18px;
+	font-style: italic;
+	color: skyblue;
+}
