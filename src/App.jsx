@@ -116,7 +116,7 @@ function App() {
 					</div>
 				</div>
 				<img
-					src="src/assets/logo.jpeg"
+					src="/assets/logo.jpeg"
 					alt="logo"
 					width={35}
 					className="navbarLogo"
@@ -174,17 +174,17 @@ function App() {
 						<p>Tel: 255.255.255.0</p>
 						<p className="social">
 							<img
-								src="src/assets/icons/facebook.png"
+								src="/assets/icons/facebook.png"
 								alt="facebook"
 								width={30}
 							/>
 							<img
-								src="src/assets/icons/instagram.png"
+								src="/assets/icons/instagram.png"
 								alt="instagram"
 								width={30}
 							/>
 							<img
-								src="src/assets/icons/twitter.png"
+								src="/assets/icons/twitter.png"
 								alt="twitter"
 								width={28}
 							/>

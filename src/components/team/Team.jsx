@@ -21,12 +21,12 @@ const Team = () => {
 						aria-selected="true"
 					>
 						<img
-							src="src/assets/equipe/js-logo.png"
+							src="/assets/equipe/js-logo.png"
 							alt="logo"
 							className="teamMemberLogo memberLogoJs"
 						/>
 						<img
-							src="src/assets/equipe/Brendan_Eich.jpeg"
+							src="/assets/equipe/Brendan_Eich.jpeg"
 							alt="team"
 							className="teamMemberImg"
 						/>
@@ -45,12 +45,12 @@ const Team = () => {
 						aria-selected="false"
 					>
 						<img
-							src="src/assets/boissons/react-logo.png"
+							src="/assets/boissons/react-logo.png"
 							alt="logo"
 							className="teamMemberLogo memberLogoReact"
 						/>
 						<img
-							src="src/assets/equipe/jordan-walke.jpeg"
+							src="/assets/equipe/jordan-walke.jpeg"
 							alt="team"
 							className="teamMemberImg"
 						/>
@@ -69,12 +69,12 @@ const Team = () => {
 						aria-selected="false"
 					>
 						<img
-							src="src/assets/plats/vue-logo.png"
+							src="/assets/plats/vue-logo.png"
 							alt="logo"
 							className="teamMemberLogo memberLogoVue"
 						/>
 						<img
-							src="src/assets/equipe/evan-you.jpeg"
+							src="/assets/equipe/evan-you.jpeg"
 							alt="team"
 							className="teamMemberImg"
 						/>
@@ -93,12 +93,12 @@ const Team = () => {
 						aria-selected="false"
 					>
 						<img
-							src="src/assets/plats/php-logo.png"
+							src="/assets/plats/php-logo.png"
 							alt="logo"
 							className="teamMemberLogo memberLogoPhp"
 						/>
 						<img
-							src="src/assets/equipe/rasmus-lerdorf.jpeg"
+							src="/assets/equipe/rasmus-lerdorf.jpeg"
 							alt="team"
 							className="teamMemberImg"
 						/>
