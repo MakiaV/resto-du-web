@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 import Plat from "./components/plat/Plat";
@@ -35,16 +33,12 @@ function App() {
 		const options1 = {
 			root: null,
 			rootMargin: "0px",
-			threshold: 0.5,
+			threshold: 0.3,
 		};
 		const observer = new IntersectionObserver((entries) => {
-			console.log(entries);
-
 			if (entries[0].isIntersecting) {
 				navItem1.current.classList.add("active1");
 				c1.current.classList.add("hide1");
-
-				// observer.unobserve(myMemu.current);
 			} else {
 				navItem1.current.classList.remove("active1");
 				c1.current.classList.remove("hide1");
@@ -62,8 +56,6 @@ function App() {
 			if (entries[0].isIntersecting) {
 				navItem2.current.classList.add("active2");
 				c2.current.classList.add("hide2");
-
-				// observer.unobserve(myMemu.current);
 			} else {
 				navItem2.current.classList.remove("active2");
 				c2.current.classList.remove("hide2");
@@ -75,14 +67,12 @@ function App() {
 		const options3 = {
 			root: null,
 			rootMargin: "0px",
-			threshold: 0.5,
+			threshold: 0.2,
 		};
 		const observer = new IntersectionObserver((entries) => {
 			if (entries[0].isIntersecting) {
 				navItem3.current.classList.add("active3");
 				c3.current.classList.add("hide3");
-
-				// observer.unobserve(myMemu.current);
 			} else {
 				navItem3.current.classList.remove("active3");
 				c3.current.classList.remove("hide3");
@@ -170,22 +160,46 @@ function App() {
 			<section className="equipe" ref={myEquipe}>
 				<h2>Notre équipe</h2>
 				<h3>Les toques du web</h3>
-				{/* <Layout></Layout> */}
 				<Team />
 			</section>
 			<section className="contact" ref={myContact}>
-				<h2>Contact</h2>
-				<p>RESTO DU WEB</p>
-				<p>127.0.0.1 Localhost</p>
-				<p>33100 Germany</p>
-				<div>
-					<p>OUVERTURE</p>
-					<p>7J/7</p>
-					<p>24H/24</p>
+				<div className="contactWrapper">
+					<div className="contactLeft">
+						<p>RESTO DU WEB</p>
+						<p>127.0.0.1 Localhost</p>
+						<p>33100 Germany</p>
+					</div>
+					<div className="contactCenter">
+						<p>Email: contact@resto-du-web.com</p>
+						<p>Tel: 255.255.255.0</p>
+						<p className="social">
+							<img
+								src="src/assets/icons/facebook.png"
+								alt="facebook"
+								width={30}
+							/>
+							<img
+								src="src/assets/icons/instagram.png"
+								alt="instagram"
+								width={30}
+							/>
+							<img
+								src="src/assets/icons/twitter.png"
+								alt="twitter"
+								width={28}
+							/>
+						</p>
+					</div>
+					<div className="contactRight">
+						<div>
+							<p>OUVERTURE</p>
+							<p>7J/7</p>
+							<p>24H/24</p>
+						</div>
+					</div>
 				</div>
-				<div>
-					<p>contact@resto-du-web.com</p>
-					<p>Tel: 255.255.255.0</p>
+				<div className="copyright">
+					&copy; 2023 Resto Du Web - Tous droits réservés
 				</div>
 			</section>
 		</div>

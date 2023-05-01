@@ -153,10 +153,6 @@
 	display: none;
 }
 
-.contact {
-	background: #171923;
-}
-
 .equipe {
 	padding: 50px;
 }
@@ -168,4 +164,30 @@
 	text-align: center;
 	font-size: 30px;
 	font-style: italic;
+	margin-bottom: 40px;
+}
+
+.contact {
+	background: #171923;
+}
+.contactWrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 50px;
+}
+.contactCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.social {
+	display: flex;
+	gap: 20px;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	background: #07070b;
+	padding: 10px;
 }
